@@ -1,38 +1,48 @@
-body{
-background-color: rgb(244, 238, 230);
+body {
+    background-color: rgb(244, 238, 230);
 }
-.nav{
-padding: 1rem 0;
-background-color:rgb(210, 227, 233) ;
+
+.nav {
+    padding: 1rem 0;
+    background-color: rgb(210, 227, 233);
 }
-.nav a{
-color: black;
-padding: 0 1rem;
-font-size:x-large;
-text-decoration: none;
+
+.nav a {
+    color: black;
+    padding: 0 1rem;
+    font-size: x-large;
+    text-decoration: none;
 }
-.nav a:hover{    
-border-radius: 2rem;
-background-color: antiquewhite;
+
+.nav a:hover {
+    border-radius: 2rem;
+    background-color: antiquewhite;
 }
-li{
-float: left;
-display: inline;
-padding:0 10rem 0 ;
-align-items: center;
+
+li {
+    float: left;
+    display: inline;
+    padding: 0 10rem 0;
+    align-items: center;
 }
-.card{  
-float: left;
-margin: 2rem;
-display:inline;
-transition: transform 0.2s ease;
-transition: background-color 0.6s ease;
+
+.card {
+    float: left;
+    margin: 2rem;
+    display: inline;
+    transition: transform 0.2s ease;
+    transition: background-color 0.9s ease;
 }
-.card:hover{
-transform: scale(1.1);
-background-color:beige;
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: beige;
+    -webkit-box-shadow: 0px 21px 11px -5px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 21px 11px -5px rgba(0,0,0,0.47);
+box-shadow: 0px 21px 11px -5px rgba(0,0,0,0.47);
 }
-h1{
-margin: 2rem;
-text-align: center;
+
+h1 {
+    margin: 2rem;
+    text-align: center;
 }

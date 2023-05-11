@@ -1,14 +1,14 @@
-const apiRickandmorty =async (pagina)=>{
-    let URL= `https://rickandmortyapi.com/api/character/?page=`+pagina;
-    const api= await fetch (URL);
-    const data =await api.json();
+const apiRickandmorty = async (pagina) => {
+    let URL = `https://rickandmortyapi.com/api/character/?page=` + pagina;
+    const api = await fetch(URL);
+    const data = await api.json();
     divRes = document.querySelector('#resultado');
 
 
-    divRes.innerHTML="";
+    divRes.innerHTML = "";
 
 
-    data.results.map((personaje) =>{
+    data.results.map((personaje) => {
         console.log(personaje);
         divItem = document.createComment('div');
         divItem = `
@@ -24,9 +24,9 @@ const apiRickandmorty =async (pagina)=>{
         
         
         `
-        divRes.innerHTML+=divItem
+        divRes.innerHTML += divItem
     });
-    
-    
+
+
 }
 apiRickandmorty(1)
